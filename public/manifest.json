@@ -1,15 +1,15 @@
 {
   "$schema": "https://json.schemastore.org/chrome-manifest",
   "manifest_version": 3,
-  "name": "React Cursor Bridge (Beta)",
-  "description": "Capture screenshots, detect React elements, and send visual context with source code references directly to your editor.",
-  "version": "0.3.1",
+  "name": "Snip (Beta)",
+  "description": "Capture screenshots, detect React elements, and send visual context with source code references directly to AI.",
+  "version": "0.3.2",
   "background": {
     "service_worker": "background.js",
     "type": "module"
   },
   "action": {
-    "default_title": "React Cursor Bridge (Beta)"
+    "default_title": "Snip (Beta)"
   },
   "side_panel": {
     "default_path": "sidepanel.html"

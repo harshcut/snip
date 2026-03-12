@@ -5,6 +5,7 @@ import {
   Dialog,
   DialogClose,
   DialogContent,
+  DialogDescription,
   DialogFooter,
   DialogHeader,
   DialogTitle,
@@ -36,6 +37,7 @@ export default function Settings() {
       <DialogContent className="sm:max-w-[340px] p-4 pt-6" showCloseButton={false}>
         <DialogHeader>
           <DialogTitle className="text-left">Settings</DialogTitle>
+          <DialogDescription className="sr-only">Customize your preferences</DialogDescription>
         </DialogHeader>
         <PageComponent />
         <DialogFooter className="flex-row sm:justify-between justify-between">

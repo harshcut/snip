@@ -1,5 +1,5 @@
 {
-  "name": "react-cursor-bridge",
+  "name": "snip",
   "type": "module",
   "scripts": {
     "dev": "vite",

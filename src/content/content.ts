@@ -253,12 +253,12 @@ const CONTENT_ELEMENT_IDS = {
 })()
 
 ;(() => {
-  if ((window as any).__react_cursor_bridge_highlight_listener_active) {
+  if ((window as any).__snip_highlight_listener_active) {
     console.warn(`${PROJECT_NAME_PREFIX} Highlight listener already initialized.`)
     return
   }
 
-  ;(window as any).__react_cursor_bridge_highlight_listener_active = true
+  ;(window as any).__snip_highlight_listener_active = true
 
   function createHighlightOverlay(rect: DOMRect): HTMLElement {
     const highlightOverlay = document.createElement('div')

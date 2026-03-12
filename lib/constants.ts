@@ -8,9 +8,9 @@ export const MESSAGE_TYPES = {
   CLEAR_HIGHLIGHT: 'CLEAR_HIGHLIGHT',
 } as const
 
-export const PROJECT_ID_PREFIX = 'react-cursor-bridge'
+export const PROJECT_ID_PREFIX = 'snip'
 
-export const PROJECT_NAME_PREFIX = '[React Cursor Bridge]:'
+export const PROJECT_NAME_PREFIX = '[Snip]:'
 
 export const STORAGE_KEYS = {
   CAPTURED_IMAGE: 'CAPTURED_IMAGE',
